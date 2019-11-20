@@ -5,15 +5,16 @@
 * [Hungabee technical specifications](technical.md)
 
 ## Intended purpose and usage of system
-NOTE: This system was “defunded” in Fall 2017. Researchers affiliated with the University of Alberta should contact research.support@ualberta.ca for information about ongoing use of local systems.
+
+**NOTE: This system was “defunded” in Fall 2017. Researchers affiliated with the University of Alberta should contact research.support@ualberta.ca for information about ongoing use of local systems.**
 
 Hungabee is intended for large shared memory jobs that cannot run elsewhere. This includes threaded applications requiring more than 24 cores and serial programs requiring more than 256gb of memory. The machine is not intended for running MPI applications unless there is a very large memory requirement.
 
 ## Request for Access
-NOTE: This system was “defunded” in Fall 2017. Researchers affiliated with the University of Alberta should contact research.support@ualberta.ca for information about ongoing use of local systems.
+**NOTE: This system was “defunded” in Fall 2017. Researchers affiliated with the University of Alberta should contact research.support@ualberta.ca for information about ongoing use of local systems.**
 
 ## Connecting and logging in
-Log in to the UV100 by connecting to the host name hungabee.westgrid.ca using an ssh (secure shell) client.
+Log in to the UV100 by connecting to the host name `hungabee.westgrid.ca` using an ssh (secure shell) client.
 
 ## Batch job policies
 Batch jobs are handled by a combination of TORQUE and Moab software. For more information about submitting jobs, see Running Jobs.
@@ -39,9 +40,6 @@ If you require more memory per core, request more cores. You do not have to use 
 Except for compiling programs and small tests, interactive use of Hungabee should be through the `-I` option to `qsub`.
 
 ## Storage Information on Hungabee
-
-Directory path	Size	Quota	Command to check quota	Purpose	Backup Policy
-
 
 * `/home`
   * **Size**: 356 TB
